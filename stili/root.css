@@ -1,0 +1,37 @@
+:root {
+    --clr-primary: #1d1d1d;
+    --clr-bg-input: #f5f6f7;
+    --clr-white: #fff;
+    --clr-anchor: #626a72;
+    --bg-banner: radial-gradient(
+        circle farthest-corner at 25% -20%,
+        rgba(122, 167, 255, 0.15),
+        hsla(0, 0%, 100%, 0) 52%
+      ),
+      radial-gradient(
+        circle farthest-corner at 100% 0%,
+        rgba(255, 1, 1, 0.08),
+        hsla(0, 0%, 100%, 0) 25%
+      );
+    --clr-anchor-banner: #99a4af;
+    --bg-hero: linear-gradient(
+        54deg,
+        rgba(255, 131, 122, 0.25),
+        rgba(255, 131, 122, 0) 28%
+      ),
+      linear-gradient(
+        241deg,
+        rgba(239, 152, 207, 0.25),
+        rgba(239, 152, 207, 0) 36%
+      );
+    --fs-hero-title-mobile: 35px;
+    --fs-hero-paragraph-mobile: 20px;
+    --clr-border: #cbd5df;
+  }
+  
+  @media screen and (min-width: 768px) {
+    :root {
+      --fs-hero-title-mobile: 42px;
+      --fs-hero-paragraph-mobile: 20px;
+    }
+  }
